@@ -1,0 +1,16 @@
+{
+  "name": "spork-css",
+  "version": "0.0.1",
+  "description": "A simple css framework",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-purgecss": "^4.0.3",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.38.0"
+  }
+}
