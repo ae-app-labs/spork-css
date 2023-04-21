@@ -1,16 +1,39 @@
 {
   "name": "spork-css",
-  "version": "0.0.1",
-  "description": "A simple css framework",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.1.0",
+  "description": "A simple and lightweight css framework",
+  "author": {
+    "name": "Ae App Labs",
+    "email": "aeapplabs.ca@gmail.com",
+    "url": "https://ae-app-labs.github.io"
   },
-  "author": "",
+  "main": "spork-css.scss",
   "license": "ISC",
+  "keywords": [
+    "css",
+    "sass",
+    "flexbox",
+    "responsive",
+    "framework"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ae-app-labs/spork-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ae-app-labs/spork-css/issues"
+  },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-purgecss": "^4.0.3",
     "gulp-sass": "^5.0.0",
     "sass": "^1.38.0"
-  }
+  },
+  "files": [
+    "spork",
+    "sass",
+    "sporck-css.sass",
+    "LICENSE",
+    "README.md"
+  ]
 }

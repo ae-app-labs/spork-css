@@ -4,6 +4,11 @@ $secondary: #1ac888 !default;
 $error: #d32752 !default;
 $info: #f6c31c !default;
 
+$scheme-main: #fefefe !default;
+
+// Text color
+$text: #5A5A5A !default;
+
 // color palette (map)
 $colors: (
     "primary": $primary,
@@ -13,8 +18,10 @@ $colors: (
     "blue": #1919e6,
     "orange": #e61919,
     "purple": #9900ff,
+    "slate": #768692,
+    "cream": #FFFDD0,
     "white": white,
-    "black": black
+    "black": black,
 );
 
 // @debug map-get($colors, "orange" );

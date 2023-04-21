@@ -1,0 +1,19 @@
+$body-background-color: $scheme-main !default;
+$body-size: 16px !default;
+$body-font-size: 16px !default;
+$body-color: $text !default;
+$body-line-height: 1.5 !default;
+
+html{
+  background-color: $body-background-color;
+  font-size: $body-size;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: 100%;
+}
+
+body {
+    color: $body-color;
+    font-size: $body-font-size;
+    line-height: $body-line-height;
+}
