@@ -1,12 +1,13 @@
 
-// Customize the css library variables
+// Customize the variables as needed
 $primary: rgb(47, 143, 207);
 $secondary: rgb(124, 34, 189);
 $base-padding: 1rem;
 $base-border-thickness: 3px;
 
-$scheme-main:#303030;
-$body-color: #dce3f6;
-
+// Used as background and text colors
+$main-bg-color:#303030;
+$main-text-color: #dce3f6;
+ 
 // Import the library
 @import 'spork';
