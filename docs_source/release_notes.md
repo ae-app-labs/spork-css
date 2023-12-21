@@ -1,5 +1,9 @@
 # Release Notes
 
+## v0.1.6 (Dec 21, 2023)
+- Update Documentation
+- Update Badge component
+
 ## v0.1.5 (Dec 21, 2023)
 - Update Documentation, fixes #1
 
