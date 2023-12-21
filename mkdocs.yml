@@ -3,6 +3,8 @@ docs_dir: docs_source
 site_dir: docs
 nav:
   - HOME: index.md
+  - CUSTOMIZE: customize.md
+  - COMPONENTS: components.md
   - RELEASE NOTES: release_notes.md
   - LICENSE: license.md
 theme: readthedocs
