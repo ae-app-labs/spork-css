@@ -1,5 +1,10 @@
 # Release Notes
 
+## v0.1.7 (Jan 08, 2024)
+- Code Cleanup
+- Additional reset styles
+- Update test files
+
 ## v0.1.6 (Dec 21, 2023)
 - Update Documentation
 - Update Badge component

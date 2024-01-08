@@ -26,6 +26,10 @@ h6{
     padding: 0;
 }
 
+html {
+    hanging-punctuation: first last;
+}
+
 // Headings
 h1,
 h2,
@@ -35,6 +39,13 @@ h5,
 h6 {
     font-size: 100%;
     font-weight: normal;
+    text-wrap: balance;
+}
+
+// Paragraph
+p {
+    max-width: 75ch;
+    text-wrap: pretty;
 }
 
 // List
@@ -60,6 +71,14 @@ img,
 video{
     height: auto;
     max-width: 100%;
+    vertical-align: middle;
+}
+
+img {
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 1rem;
 }
 
 // Iframe
@@ -76,4 +95,11 @@ table{
 td,
 th{
     padding: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :has(:target) {
+        scroll-behavior: smooth;
+        scroll-padding-top: 3rem;
+    }
 }

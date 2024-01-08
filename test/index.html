@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Complete SASS</title>
-  <link rel="stylesheet" href="css/index.css">
+  <title>Spork Test Index</title>
+  <link rel="stylesheet" href="../spork/index.css">
+  <link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body>
@@ -25,17 +26,21 @@
 
     <div class="mt-4">
       <h2 class="font-lg">Buttons</h2>
-      <button>click me</button>
-      <button class='bg-secondary'>click me</button>
-      <button class='bg-error'>click me</button>
-      <button class='bg-info'>click me</button>
+      <button class="btn-primary">Primary Button</button>
+      <button class='btn-secondary'>Secondary Button</button>
+      <button class='btn-error'>Error Button</button>
+      <button class='btn-info'>Info Button</button>
     </div>
 
     <div class="mt-4">
       <h2 class="font-lg">Badges</h2>
-      <div class="badge-orange">Badge</div>
+      <div class="badge-primary">Primary Badge</div>
+      <div class="badge-secondary">Secondary Badge</div>
+      <div class="badge-orange">Orange Badge</div>
+      <div class="badge-purple">Purple Badge</div>
     </div>
 
+    <h2 class="font-lg mt-4">Card</h2>
     <div class="card">
       <div class="card-title">Hello</div>
       <div class="card-body">
@@ -43,31 +48,61 @@
       </div>
     </div>
 
-    <div>
-      <span class="bg-primary">Background</span> |
-      <span class="bg-secondary">secondary</span> |
-      <span class="bg-error">errr</span> |
-      <span class="bg-orange">orange</span>
+    <div class="mt-4">
+      <h2 class="font-lg">Colors</h2>
+      <div class="divTable">
+        <div class="divTableBody">
+        <div class="divTableRow">
+        <div class="divTableCell">Primary Color</div>
+        <div class="divTableCell"><span class="bg-primary">Primary</span></div>
+        </div>
+        <div class="divTableRow">
+        <div class="divTableCell">Secondary Color</div>
+        <div class="divTableCell"><span class="bg-secondary">Secondary</span> </div>
+        </div>
+        <div class="divTableRow">
+        <div class="divTableCell">Error Color</div>
+        <div class="divTableCell"><span class="bg-error">Error</span> </div>
+        </div>
+        <div class="divTableRow">
+        <div class="divTableCell">Orange</div>
+        <div class="divTableCell"><span class="bg-orange">orange</span></div>
+        </div>
+        <div class="divTableRow">
+          <div class="divTableCell">Primary Dark 1, Text Secondary Light 9</div>
+          <div class="divTableCell"><span class="bg-primary-dark-1 text-secondary-light-9">Background</span></div>
+        </div>
+        <div class="divTableRow">
+          <div class="divTableCell">Primary Dark 2, Text Secondary Light 8</div>
+          <div class="divTableCell"><span class="bg-primary-dark-2 text-secondary-light-8">Background</span></div>
+        </div>
+        <div class="divTableRow">
+          <div class="divTableCell">Primary Dark 3, Text Secondary Light 7</div>
+          <div class="divTableCell"><span class="bg-primary-dark-3 text-secondary-light-7">Background</span></div>
+        </div>
+        <div class="divTableRow">
+          <div class="divTableCell">Primary Dark 4, Text Secondary Light 6</div>
+          <div class="divTableCell"><span class="bg-primary-dark-4 text-secondary-light-6">Background</span></div>
+        </div>
+        <div class="divTableRow">
+          <div class="divTableCell">Primary Dark 8, Text Secondary Light 2</div>
+          <div class="divTableCell"><span class="bg-primary-dark-8 text-secondary-light-2">Background</span></div>
+        </div>
+        <div class="divTableRow">
+          <div class="divTableCell">Primary Dark 9, Text Secondary Light 1</div>
+          <div class="divTableCell"><span class="bg-primary-dark-9 text-secondary-light-1">Background</span></div>
+        </div>
+        </div>
+        </div>
+
     </div>
 
     <div>
-      <span class="bg-primary-dark-1 text-secondary-light-9">Background</span> |
-      <span class="bg-primary-dark-2 text-secondary-light-8">Background</span> |
-      <span class="bg-primary-dark-3 text-secondary-light-7">Background</span> |
-      <span class="bg-primary-dark-4 text-secondary-light-6">Background</span> |
-      <span class="bg-primary-dark-5 text-secondary-light-5">Background</span> |
-      <span class="bg-primary-dark-6 text-secondary-light-4">Background</span> |
-      <span class="bg-primary-dark-7 text-secondary-light-3">Background</span> |
-      <span class="bg-primary-dark-8 text-secondary-light-2">Background</span> |
-      <span class="bg-primary-dark-9 text-secondary-light-1">Background</span> |
-    </div>
-
-    <div>
-      <h2 class="mb-2">Grid system</h2>
+      <h2 class="mt-4 font-lg">Grid system</h2>
       <div class="row gap-2 justify-center">
         <div class="col-12-xs col-5-sm col-3-xl">
           <div class="card">
-            <h3 class="card-title">Hello</h3>
+            <h3 class="card-title">col-3-xl</h3>
             <p class="card-body">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi inventore dolores quis minima, adipisci quod ullam. Accusantium sequi iusto aspernatur repellat quas eaque consequuntur, quos aut, mollitia corrupti ratione? Ducimus.
             </p>
@@ -75,27 +110,21 @@
         </div>
         <div class="col-12-xs col-5-sm col-3-xl">
           <div class="card">
-            <h3 class="card-title">Hello</h3>
+            <h3 class="card-title">col-3-xl</h3>
             <p class="card-body">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi inventore dolores quis minima, adipisci quod ullam. Accusantium sequi iusto aspernatur repellat quas eaque consequuntur, quos aut, mollitia corrupti ratione? Ducimus.
             </p>
           </div>
         </div>
-        <div class="col-12-xs col-5-sm col-3-xl">
+        <div class="col-12-xs col-5-sm col-6-xl">
           <div class="card">
-            <h3 class="card-title">Hello</h3>
+            <h3 class="card-title">col-6-xl</h3>
             <p class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi inventore dolores quis minima, adipisci quod ullam. Accusantium sequi iusto aspernatur repellat quas eaque consequuntur, quos aut, mollitia corrupti ratione? Ducimus.
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi inventore dolores quis minima, adipisci quod ullam. Accusantium sequi iusto aspernatur repellat quas eaque consequuntur, quos aut, mollitia corrupti ratione? Ducimus.
             </p>
           </div>
         </div>
-        <div class="col-12-xs col-5-sm col-3-xl">
-          <div class="card">
-            <h3 class="card-title">Hello</h3>
-            <p class="card-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi inventore dolores quis minima, adipisci quod ullam. Accusantium sequi iusto aspernatur repellat quas eaque consequuntur, quos aut, mollitia corrupti ratione? Ducimus.
-            </p>
-          </div>
         </div>
       </div>
     </div>

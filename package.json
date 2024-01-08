@@ -1,11 +1,14 @@
 {
   "name": "spork-css",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A simple and lightweight css framework",
   "author": {
     "name": "Ae App Labs",
     "email": "aeapplabs.ca@gmail.com",
     "url": "https://ae-app-labs.github.io"
+  },
+  "scripts": {
+    "watch": "gulp"
   },
   "main": "index.scss",
   "license": "ISC",
