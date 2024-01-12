@@ -58,6 +58,8 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#navbar">Navbar</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#grid-system">Grid System</a>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -95,9 +97,78 @@
                 <h1 id="components">Components</h1>
 <p>The following components are part of the library as of now, with more in progress.</p>
 <h2 id="badge">Badge</h2>
+<p>Badges are capsule sized informational sections also called pills in some design systems.</p>
+<p><strong>Usage</strong></p>
+<pre><code class="language-html">&lt;div class=&quot;badge-primary&quot;&gt;Primary Badge&lt;/div&gt;
+&lt;div class=&quot;badge-secondary&quot;&gt;Secondary Badge&lt;/div&gt;
+&lt;div class=&quot;badge-orange&quot;&gt;Orange Badge&lt;/div&gt;
+&lt;div class=&quot;badge-purple&quot;&gt;Purple Badge&lt;/div&gt;
+</code></pre>
+<p><img alt="badge component" src="../img/components/badges.png" /></p>
 <h2 id="button">Button</h2>
+<p>Buttons are standard html button styles which come in different colors. 
+<strong>Usage</strong></p>
+<pre><code class="language-html">&lt;button class=&quot;btn-primary&quot;&gt;Primary Button&lt;/button&gt;
+&lt;button class='btn-secondary'&gt;Secondary Button&lt;/button&gt;
+&lt;button class='btn-error'&gt;Error Button&lt;/button&gt;
+&lt;button class='btn-info'&gt;Info Button&lt;/button&gt;
+</code></pre>
+<p><img alt="badge component" src="../img/components/buttons.png" /></p>
 <h2 id="card">Card</h2>
+<p>This is a standard card with a slight dropshadow to hold related information together.</p>
+<p><strong>Usage</strong></p>
+<pre><code class="language-html">&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-title&quot;&gt;Hello&lt;/div&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;p&gt;This is a body with a &lt;a href=&quot;#&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<p><img alt="badge component" src="../img/components/card.png" /></p>
 <h2 id="navbar">Navbar</h2>
+<p>This is a simple implementation of a navigation system.</p>
+<p><strong>Usage</strong></p>
+<pre><code class="language-html">&lt;nav class=&quot;navbar-primary text-white mb-4&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;h2 class=&quot;site-title&quot;&gt;Spork CSS&lt;/h2&gt;
+    &lt;p&gt;A lightweight css library&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+</code></pre>
+<p><img alt="badge component" src="../img/components/navbar.png" /></p>
+<h2 id="grid-system">Grid System</h2>
+<p>A responsive 12 column grid system where we can specify how each column should behave based on the screen sizes.</p>
+<p><strong>Usage</strong></p>
+<pre><code class="language-html">&lt;div class=&quot;row gap-2 justify-center&quot;&gt;
+  &lt;div class=&quot;col-12-xs col-5-sm col-3-xl&quot;&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;h3 class=&quot;card-title&quot;&gt;col-3-xl&lt;/h3&gt;
+      &lt;p class=&quot;card-body&quot;&gt;
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi inventore dolores quis minima, adipisci quod ullam. Accusantium sequi iusto aspernatur repellat quas eaque consequuntur, quos aut, mollitia corrupti ratione? Ducimus.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-12-xs col-5-sm col-3-xl&quot;&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;h3 class=&quot;card-title&quot;&gt;col-3-xl&lt;/h3&gt;
+      &lt;p class=&quot;card-body&quot;&gt;
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi inventore dolores quis minima, adipisci quod ullam. Accusantium sequi iusto aspernatur repellat quas eaque consequuntur, quos aut, mollitia corrupti ratione? Ducimus.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-12-xs col-5-sm col-6-xl&quot;&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;h3 class=&quot;card-title&quot;&gt;col-6-xl&lt;/h3&gt;
+      &lt;p class=&quot;card-body&quot;&gt;
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi inventore dolores quis minima, adipisci quod ullam. Accusantium sequi iusto aspernatur repellat quas eaque consequuntur, quos aut, mollitia corrupti ratione? Ducimus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi inventore dolores quis minima, adipisci quod ullam. Accusantium sequi iusto aspernatur repellat quas eaque consequuntur, quos aut, mollitia corrupti ratione? Ducimus.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<p><img alt="badge component" src="../img/components/grid.png" /></p>
               
             </div>
           </div><footer>
