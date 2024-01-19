@@ -12,12 +12,13 @@ See the documentation for usage and how to customize.
 https://ae-app-labs.github.io/spork-css/
 
 ## Sample
-A Sample implementation is provided in the /test folder for reference on how to use and customize.
+A Sample implementation is provided in the /test folder for reference on how to use and customize.  
+[Preview Here](https://htmlpreview.github.io/?https://github.com/ae-app-labs/spork-css/blob/main/test/index.html)
 
 ## License
 ISC License
 
-Copyright 2023 AeAppLabs
+Copyright 2024 AeAppLabs
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
